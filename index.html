@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Touch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+     <header>
+        <nav id="navbar">
+           <p class="nav_logo"><img src="./images/logo.svg" alt="Salad icon"> Chef's Touch</p>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Order now!
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Order now!
+            </button>
+        </div>
+     </header>
+
+     <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Flavors and <span>Happy Moments.</span>
+                </h1>
+
+                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni officiis quasi praesentium, inventore nostrum ipsa.</p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        See menu
+                    </a>
+
+                    <a href="tel:+123456789" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-square-phone"></i>
+                        </button>
+                        (+123-456-789)
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="./images/hero.png" alt="Salad image">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <h3 class="section-subtitle">The stars of our restaurant</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./images/dish.png" class="dish-image" alt="Dish 1">
+
+                    <h3 class="dish-title">
+                        Spaghetti Carbonara
+                    </h3>
+
+                    <span class="dish-description">
+                        A classic Italian dish made with spaghetti, eggs, pecorino cheese, pancetta and black pepper. It's creamy and comforting.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(200+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>$12,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./images/dish2.png" class="dish-image" alt="Dish 2">
+
+                    <h3 class="dish-title">
+                        Pad Thai
+                    </h3>
+
+                    <span class="dish-description">
+                        A Thai specialty, this dish combines sautéed rice noodles with shrimp or chicken, tofu, eggs, peanuts, bean sprouts and sweet and sour sauce.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(350+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>$8,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./images/dish3.png" class="dish-image" alt="Dish 3">
+
+                    <h3 class="dish-title">
+                        Caesar Salad
+                    </h3>
+
+                    <span class="dish-description">
+                        A classic salad made with romaine lettuce, crunchy croutons, grated Parmesan cheese and creamy Caesar dressing, often served with pieces of grilled chicken.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>$5,20</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./images/dish4.png" class="dish-image" alt="Dish 4">
+
+                    <h3 class="dish-title">
+                        Chicken Tikka Masala
+                    </h3>
+
+                    <span class="dish-description">
+                        An Indian-British dish that features chicken pieces marinated in yogurt and spices, grilled and served in a creamy spiced tomato sauce.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>$9,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="./images/chef.jpg" alt="Image" id="testimonial_chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Testimonials</h2>
+                <h3 class="section-subtitle">
+                    See what our customers say about our food
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="./images/avatar1.jpg" alt="Avatar" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Sophia Green
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Every time I visit, I'm blown away by the quality of the food and the service. It's clear that they truly care about their customers and the ingredients they use. Highly recommend!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="./images/avatar2.jpg" alt="Avatar" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>Emily Johnson
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "I love the cozy atmosphere and the friendly staff. Their Caesar Salad is the best I've ever had, and the attention to detail in every dish is amazing!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="./images/avatar3.jpg" alt="Avatar" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>Michael Rodriguez
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "The food here is absolutely incredible! Everything tastes so fresh, and the flavors are perfectly balanced. This is my go-to spot for a delicious and satisfying meal!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    See more reviews
+                </button>
+            </div>
+        </section>
+     </main>
+
+     <footer>
+        <img src="./images/wave.svg" alt="Wave background">
+
+        <div id="footer_items">
+            <span id="copyright">
+                <a href="https://github.com/emersonramos3lt" target="_blank">&copy 2025 Emerson</a>
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+        </div>
+     </footer>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="./js/script.js"></script>
+</body>
+</html>

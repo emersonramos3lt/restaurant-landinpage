@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS FILES IMPORTS */
+@import url("header.css");
+@import url("home.css");
+@import url("menu.css");
+@import url("testimonials.css");
+
+:root {
+    --bg: #fff;
+    --mainColor: #134511;
+    --lightColor: #007F5F;
+    --hover: #2B9348;
+    --lightBlack: #1d1d1d;
+    --gray: #434343;
+    --yellow: #EEBA0B;
+}
+
+* {
+    font-family: "Inter", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 28px 8%;
+    margin-top: 4rem;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightColor);
+    color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.btn-default i {
+    font-size: 1rem;
+}
+
+.btn-default:hover {
+    background-color: var(--hover);
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: beige;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--lightBlack);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0,0,0, 0.1);
+}
+
+.section-title {
+    color: var(--lightColor);
+    font-size: 1.5rem;
+}
+
+.section-subtitle {
+    font-size: 2.1rem;
+}
+
+/* FOOTER */
+footer {
+    background: beige;
+    margin-top: 7rem;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8% 24px 8%;
+    align-items: center;
+}
+
+#footer_items a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+#footer_items a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    color: var(--gray);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
